@@ -10,6 +10,7 @@ Suite Teardown  Run Keywords    Close Browser
 
 *** Test Cases ***
 Create an Invoice
+    my keyword
     Open Browser    http://34.225.240.91		chrome
     ${invoiceId}=    Generate Random String    10    [LETTERS]
     Set Suite Variable   ${invoiceId}
@@ -34,4 +35,5 @@ Create an Invoice
     Should Be Equal As Strings  ${resp.status_code}  404
 
 *** Keywords ***
-
+my keyword
+    Comment  this is a keyword I created and should appear on my TC output

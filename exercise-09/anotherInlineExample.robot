@@ -5,8 +5,8 @@
 Using Variable
 
   # Now we're declaring 3 Variable called name, color, and team. We also set them to values.
-  ${name}=  Set Variable  Paul
-  ${color}=  Set Variable  teal
+  ${name}=  Set Variable  Alejandro
+  ${color}=  Set Variable  Blue
   ${team}=  Set Variable  Jaguars
 
   # Log the same message, but this time we use the Variable we set up in the lines above.

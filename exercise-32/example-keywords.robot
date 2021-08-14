@@ -5,13 +5,13 @@
 
 
 *** Test Cases ***
-My Test Case
-  ${nickName}=  Set Variable  Paul
-  Print Profile  ${nickName}  Merrill  Trainer  dpaulmerrill
-  ${nickName}=  Change Nickname  ${nickName}  Davie
-  Print Profile  ${nickName}  Merrill  Trainer  dpaulmerrill
+TC1: My Test Case
+  ${nickName}=  Set Variable  Ale
+  Print Profile  ${nickName}  Sejas  QE  alejandro1481
+  ${nickName}=  Change Nickname  ${nickName}  Alejandro
+  Print Profile  ${nickName}  Sejas  QE  alejandro1481
 
-My Addition Test
+TC2: My Addition Test
   ${sum}=  Add  2  3
   Should be equal as integers  5  ${sum}
 
@@ -38,4 +38,4 @@ Print Profile
    Log to Console   Last Name: "${lastName}"
    Log to Console   Title: "${title}"
    Log to Console   Twitter Handle: "${twitterHandle}"
- 
+

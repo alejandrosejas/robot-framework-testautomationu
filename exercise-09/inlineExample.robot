@@ -5,11 +5,11 @@
 Using Variable
 
   # Log a message, with a literal string. No Variable are used here.
-  Log to Console   My name is Paul. My favorite color is teal. My favorite NFL team is the Jaguars.  console=true
+  Log to Console   My name is Alejandro. My favorite color is Blue. My favorite NFL team is the Jaguars.  console=true
 
   # Now we're declaring 3 Variable called name, color, and team. We also set them to values.
-  ${name}=  Set Variable  Paul
-  ${color}=  Set Variable  teal
+  ${name}=  Set Variable  Alejandro
+  ${color}=  Set Variable  Blue
   ${team}=  Set Variable  Jaguars
 
   # Log the same message, but this time we use the Variable we set up in the lines above.
